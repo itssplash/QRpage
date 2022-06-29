@@ -1,0 +1,85 @@
+
+@import url("../../global/reset.css");
+
+/* :root {
+  --bgColor: hsl(212, 45%, 89%);
+  --containerBg: white;
+  --h1Color: hsl(218, 44%, 22%);
+  --pColor: hsl(220, 15%, 55%);
+} */
+
+/* .darkTheme {
+  --bgColor: hsl(212, 27%, 69%);
+  --containerBg: rgb(44, 44, 44);
+  --h1Color: hsl(217, 22%, 93%);
+  --pColor: hsl(220, 30%, 96%);
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+
+
+img {
+    border-radius: 5px;
+    margin: 0 auto;
+
+    width: 90%;
+  }
+  
+
+  h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:hsl(218, 44%, 22%);
+    margin: 25px 20px 0;
+    letter-spacing: 1px;
+  }
+  
+  p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: var(--pColor);
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  .container{
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 15px;
+  }
+
+@media (min-width:900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+        width: 300px;
+        
+    }
+
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+    }
+
+    
+}
